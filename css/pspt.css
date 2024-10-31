@@ -1,0 +1,2389 @@
+.pspt_table_comparison_output, .pspt_pricing_table_output{
+	border: none;
+	border-collapse: collapse;
+	width:initial;
+	margin:auto;
+}
+
+.pspt_table_comparison_output .pspt_no_features {
+	padding-left:20px;
+	padding-right:20px;
+	min-width:160px;
+}
+
+.pspt_table_comparison_output .pspt_no_features, .pspt_pricing_table_output .pspt_between_pt {
+	background-color:transparent;
+}
+
+.pspt_table_comparison_output td, .pspt_pricing_table_output td{
+	font-size:10pt;
+	font-weight:400;
+}
+
+.pspt_table_comparison_output td.pspt_col_highlight, .pspt_pricing_table_output td.pspt_col_highlight{
+	font-size:11pt;
+	font-weight:500;
+}
+
+.pspt_table_comparison_output, .pspt_pricing_table_output {
+	font-family:"Trebuchet MS",Verdana,sans-serif;
+}
+
+.pspt_table_comparison_output td.pspt_package_name.pspt_col_highlight {
+	-webkit-box-shadow: 0 -8px 8px -8px #000000 !important;
+	-moz-box-shadow: 0 -8px 8px -8px #000000 !important;
+	box-shadow: 0 -8px 8px -8px #000000 !important;
+}
+
+.pspt_table_comparison_output .pspt_last_tr td.pspt_col_highlight {
+	-webkit-box-shadow: 0px 8px 8px -8px #000000 !important;
+	-moz-box-shadow: 0px 8px 8px -8px #000000!important;
+	box-shadow: 0px 8px 8px -8px #000000!important;
+}
+
+.pspt_table_comparison_output td.pspt_features {
+	-webkit-box-shadow: 0 12px 4px -14px black;
+	-moz-box-shadow: 0 12px 4px -14px black;
+	box-shadow: 0 12px 4px -14px black;
+}
+
+.pspt_table_comparison_output .pspt_last_tr td.pspt_features {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.pspt_table_comparison_output .pspt_no_features {
+	border: none;
+}
+
+.pspt_table_comparison_output .pspt_features_name {
+	border-width: 1px;
+	text-align:center;
+}
+
+.pspt_table_comparison_output .pspt_last_tr td {
+	border-bottom-width: 1px !important;
+}
+
+.pspt_table_comparison_output td.pspt_package_name {
+	border-width: 1px 1px 0 1px;
+	text-align:center;
+	min-width: 200px;
+}
+
+.pspt_table_comparison_output td.pspt_price {
+	border-width: 0 1px 0 1px;
+	text-align:center;
+	font-size:12pt;
+	font-weight:bold;
+	padding:5px;
+}
+
+.pspt_table_comparison_output td.pspt_price.pspt_col_highlight {
+	border-width: 0 1px 0 1px;
+	text-align:center;
+	font-size:13pt;
+	font-weight:bold;
+	padding:5px;
+}
+
+.pspt_table_comparison_output td.pspt_subtitle {
+	border-width: 0 1px 1px 1px;
+	text-align:center;
+	font-size:9pt;
+	font-style:italic;
+}
+
+.pspt_table_comparison_output td.pspt_subtitle.pspt_col_highlight {
+	border-width: 0 1px 1px 1px;
+	text-align:center;
+	font-size:10pt;
+	font-style:italic;
+}
+
+.pspt_table_comparison_output td.pspt_features {
+	border-width: 0 1px 0 1px;
+	text-align:center;
+}
+
+.pspt_button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-size: 10pt;
+  padding: 5px 12px 5px 12px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.pspt_button:hover {
+  text-decoration: none;
+}
+
+
+/* Layout 11 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_11, .pspt_table_comparison_output.pspt_layout_table_comparison_11 td, .pspt_table_comparison_output.pspt_layout_table_comparison_11 th {
+	border-color:#c4c4c4 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_link_shortcode {
+	color:#737373;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_link_shortcode:hover {
+	color:#4d4d4d;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_package_name {
+	background-color:#0d0d0d;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_package_name.pspt_col_highlight {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_price {
+	background-color:#0d0d0d;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_price.pspt_col_highlight {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_subtitle {
+	background-color:#0d0d0d;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_features {
+	background-color:#d9d9d9;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 td.pspt_features.pspt_col_highlight {
+	background-color:#f2f2f2;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_col_highlight .pspt_button {
+	background-color:#333333;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_col_highlight .pspt_button:hover {
+	background-color:#4d4d4d;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_button {
+	background-color:#0d0d0d;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_11 .pspt_button:hover {
+	background-color:#262626;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 12 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_12, .pspt_table_comparison_output.pspt_layout_table_comparison_12 td, .pspt_table_comparison_output.pspt_layout_table_comparison_12 th {
+	border-color:#d1d1d1 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_link_shortcode {
+	color:#737373;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_link_shortcode:hover {
+	color:#4d4d4d;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_package_name {
+	background-color:#00264d;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_package_name.pspt_col_highlight {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_price {
+	background-color:#00264d;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_price.pspt_col_highlight {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_subtitle {
+	background-color:#00264d;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_features {
+	background-color:#cce6ff;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 td.pspt_features.pspt_col_highlight {
+	background-color:#e6f2ff;
+	color:black;
+}
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_col_highlight .pspt_button {
+	background-color:#004080;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_col_highlight .pspt_button:hover {
+	background-color:#0059b3;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_button {
+	background-color:#00264d;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_12 .pspt_button:hover {
+	background-color:#004080;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 13 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_13, .pspt_table_comparison_output.pspt_layout_table_comparison_13 td, .pspt_table_comparison_output.pspt_layout_table_comparison_13 th {
+	border-color:#d1d1d1 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_link_shortcode {
+	color:#4d4d4d;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_link_shortcode:hover {
+	color:#333333;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_package_name {
+	background-color:#b35900;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_package_name.pspt_col_highlight {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_price {
+	background-color:#b35900;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_price.pspt_col_highlight {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_subtitle {
+	background-color:#b35900;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_features {
+	background-color:#ffd9b3;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 td.pspt_features.pspt_col_highlight {
+	background-color:#fff2e6;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_col_highlight .pspt_button {
+	background-color:#e67300;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_col_highlight .pspt_button:hover {
+	background-color:#ff8c1a;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_button {
+	background-color:#b35900;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_13 .pspt_button:hover {
+	background-color:#e67300;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 24 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_24, .pspt_table_comparison_output.pspt_layout_table_comparison_24 td, .pspt_table_comparison_output.pspt_layout_table_comparison_24 th {
+	border-color:#a2a2a2 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_link_shortcode {
+	color:#8c8c8c;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_link_shortcode:hover {
+	color:#737373;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_package_name {
+	background-color:#ffd966;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_package_name.pspt_col_highlight {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_price {
+	background-color:#ffd966;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_price.pspt_col_highlight {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_subtitle {
+	background-color:#ffd966;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_features {
+	background-color:#FFF2CC;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 td.pspt_features.pspt_col_highlight {
+	background-color:#FEFEE0;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_col_highlight .pspt_button {
+	background-color:#FFE599;
+	color:#47476b;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_col_highlight .pspt_button:hover {
+	background-color:#ffecb3;
+	color:#47476b;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_button {
+	background-color:#ffd966;
+	color:#47476b;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_24 .pspt_button:hover {
+	background-color:#ffdf80;
+	color:#47476b;
+	box-shadow:none;
+}
+
+/* Layout 25 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_25, .pspt_table_comparison_output.pspt_layout_table_comparison_25 td, .pspt_table_comparison_output.pspt_layout_table_comparison_25 th {
+	border-color:#f0f0f0 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_link_shortcode {
+	color:#8c8c8c;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_link_shortcode:hover {
+	color:#737373;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_package_name {
+	background-color:#acd392;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_package_name.pspt_col_highlight {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_price {
+	background-color:#acd392;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_price.pspt_col_highlight {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_subtitle {
+	background-color:#acd392;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_features {
+	background-color:#E2EFD9;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 td.pspt_features.pspt_col_highlight {
+	background-color:#EDFAE4;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_col_highlight .pspt_button {
+	background-color:#C5E0B3;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_col_highlight .pspt_button:hover {
+	background-color:#d6e9c9;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_button {
+	background-color:#acd392;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_25 .pspt_button:hover {
+	background-color:#c8e1b7;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 26 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_26, .pspt_table_comparison_output.pspt_layout_table_comparison_26 td, .pspt_table_comparison_output.pspt_layout_table_comparison_26 th {
+	border-color:#f0f0f0 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_package_name {
+	background-color:#fb8383;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_package_name.pspt_col_highlight {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_price {
+	background-color:#fb8383;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_price.pspt_col_highlight {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_subtitle {
+	background-color:#fb8383;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_features {
+	background-color:#FFD4D4;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 td.pspt_features.pspt_col_highlight {
+	background-color:#FFE2E2;
+	color:black;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 .pspt_col_highlight .pspt_button {
+	background-color:#FC9D9D;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 .pspt_col_highlight .pspt_button:hover {
+	background-color:#fdb5b5;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 .pspt_button {
+	background-color:#fb8383;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_26 .pspt_button:hover {
+	background-color:#fc9c9c;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 37 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_37, .pspt_table_comparison_output.pspt_layout_table_comparison_37 td, .pspt_table_comparison_output.pspt_layout_table_comparison_37 th {
+	border-color:#f0f0f0 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_package_name {
+	background-color:#fdb4fd;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_package_name.pspt_col_highlight {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_price {
+	background-color:#fdb4fd;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_price.pspt_col_highlight {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_subtitle {
+	background-color:#fdb4fd;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_features {
+	background-color:#fee6fe;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 .pspt_col_highlight .pspt_button {
+	background-color:#fecdfe;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 .pspt_col_highlight .pspt_button:hover {
+	background-color:#fedefe;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 .pspt_button {
+	background-color:#fdb4fd;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_37 .pspt_button:hover {
+	background-color:#fecdfe;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 38 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_38, .pspt_table_comparison_output.pspt_layout_table_comparison_38 td, .pspt_table_comparison_output.pspt_layout_table_comparison_38 th {
+	border-color:#a2a2a2 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_package_name {
+	background-color:#cae7e7;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_package_name.pspt_col_highlight {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_price {
+	background-color:#cae7e7;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_price.pspt_col_highlight {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_subtitle {
+	background-color:#cae7e7;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_features {
+	background-color:#edf7f7;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 .pspt_col_highlight .pspt_button {
+	background-color:#dcefef;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 .pspt_col_highlight .pspt_button:hover {
+	background-color:#cbe7e7;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 .pspt_button {
+	background-color:#cae7e7;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_38 .pspt_button:hover {
+	background-color:#b9dfdf;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 39 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_39, .pspt_table_comparison_output.pspt_layout_table_comparison_39 td, .pspt_table_comparison_output.pspt_layout_table_comparison_39 th {
+	border-color:#a2a2a2 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_package_name {
+	background-color:#ecd9c6;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_package_name.pspt_col_highlight {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_price {
+	background-color:#ecd9c6;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_price.pspt_col_highlight {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_subtitle {
+	background-color:#ecd9c6;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_features {
+	background-color:#f9f2ec;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#646464;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 .pspt_col_highlight .pspt_button {
+	background-color:#f2e6d9;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 .pspt_col_highlight .pspt_button:hover {
+	background-color:#ebd9c6;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 .pspt_button {
+	background-color:#ecd9c6;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_39 .pspt_button:hover {
+	background-color:#e6ccb3;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 42 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_42, .pspt_table_comparison_output.pspt_layout_table_comparison_42 td, .pspt_table_comparison_output.pspt_layout_table_comparison_42 th {
+	border-color:#E6E6E6 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#283B4C;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_package_name {
+	background-color:#283B4C;
+	color:#ffffff;
+	font-size:11pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_package_name.pspt_col_highlight {
+	background-color:#354e64;
+	color:#ffffff;
+	font-size:12pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_price {
+	background-color:#2E9F9D;
+	color:#ffffff;	
+	padding-top:10px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_price span{
+	font-size:18pt;
+	border-radius:65px;
+	border:2px solid #ffffff;
+	height: 130px;
+    width: 130px;
+    line-height: 130px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_price.pspt_col_highlight {
+	background-color:#9C5D7A;
+	color:#ffffff;
+	padding-top:10px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_price.pspt_col_highlight span {
+	font-size:19pt;
+	border-radius:65px;
+	border:2px solid #ffffff;
+	height: 130px;
+    width: 130px;
+    line-height: 130px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_subtitle {
+	background-color:#2E9F9D;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#9C5D7A;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_features {
+	background-color:#f2f2f2;
+	color:#6F7077;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#6F7077;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 .pspt_col_highlight .pspt_button {
+	background-color:#9C5D7A;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 .pspt_col_highlight .pspt_button:hover {
+	background-color:#a9708a;
+	color:#EDEEEF;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 .pspt_button {
+	background-color:#2E9F9D;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_42 .pspt_button:hover {
+	background-color:#34b2b0;
+	color:#EDEEEF;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+
+/* Layout 44 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_44, .pspt_table_comparison_output.pspt_layout_table_comparison_44 td, .pspt_table_comparison_output.pspt_layout_table_comparison_44 th {
+	border-color:#a3b5b9 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_link_shortcode {
+	color:#8c8c8c;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_link_shortcode:hover {
+	color:#737373;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#444444;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_package_name {
+	background-color:#2D2E2E;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_package_name.pspt_col_highlight {
+	background-color:#212226;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_price {
+	background-color:#484148;
+	color:#ffffff;
+	font-size:16pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_price.pspt_col_highlight {
+	background-color:#DD7D27;
+	color:#ffffff;
+	font-size:17pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_subtitle {
+	background-color:#484148;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#DD7D27;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_features {
+	background-color:#DEF0F4;
+	color:#617377;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 td.pspt_features.pspt_col_highlight {
+	background-color:#DEF0F4;
+	color:#617377;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_col_highlight .pspt_button {
+	background-color:#DD7D27;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_col_highlight .pspt_button:hover {
+	background-color:#e3944f;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_button {
+	background-color:#484148;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_44 .pspt_button:hover {
+	background-color:#5e555e;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+/* Layout 45 */
+.pspt_table_comparison_output.pspt_layout_table_comparison_45, .pspt_table_comparison_output.pspt_layout_table_comparison_45 td, .pspt_table_comparison_output.pspt_layout_table_comparison_45 th {
+	border-color:#E6E6E6 !important;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_features_name {
+	border-style:solid;
+	border-bottom-width:1px;
+	background-color:#ef8c76;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_package_name {
+	background-color:#ffffff;
+	color:#6B6B6B;
+	font-weight:bold;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_package_name.pspt_col_highlight {
+	background-color:#E54722;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_price {
+	background-color:#ffffff;
+	color:#ffffff;	
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_price span{
+	background-color:#E54722;
+	color:#ffffff;	
+	font-size:16pt;
+	border-radius:55px;
+	height: 110px;
+    width: 110px;
+    line-height: 110px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_price.pspt_col_highlight {
+	background-color:#E54722;
+	color:#5B5B5B;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_price.pspt_col_highlight span {
+	background-color:#ffffff;
+	color:#5B5B5B;
+	font-size:17pt;
+	border-radius:55px;
+	height: 110px;
+    width: 110px;
+    line-height: 110px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_subtitle {
+	background-color:#ffffff;
+	color:#8a8a8b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#E54722;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_features {
+	background-color:#ffffff;
+	color:#8a8a8b;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 td.pspt_features.pspt_col_highlight {
+	background-color:#E54722;
+	color:#ffffff;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 .pspt_col_highlight .pspt_button {
+	background-color:#ffffff;
+	border:1px solid #E54722;
+	color:#E54722;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 .pspt_col_highlight .pspt_button:hover {
+	background-color:#E54722;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 .pspt_button {
+	background-color:#E54722;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+.pspt_table_comparison_output.pspt_layout_table_comparison_45 .pspt_button:hover {
+	background-color:#ffffff;
+	border:1px solid #E54722;
+	color:#E54722;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+
+
+.pspt_pricing_table_output td.pspt_between_pt {
+	width:5%;
+	border-width: 0 1px 0 1px;
+}
+
+.pspt_pricing_table_output .pspt_last_tr td.pspt_between_pt {
+	border-bottom:none;
+}
+
+.pspt_pricing_table_output td.pspt_package_name.pspt_col_highlight {
+	-webkit-box-shadow: 0 -8px 8px -8px #000000 !important;
+	-moz-box-shadow: 0 -8px 8px -8px #000000 !important;
+	box-shadow: 0 -8px 8px -8px #000000 !important;
+}
+
+.pspt_pricing_table_output .pspt_last_tr td.pspt_col_highlight {
+	-webkit-box-shadow: 0px 8px 8px -8px #000000 !important;
+	-moz-box-shadow: 0px 8px 8px -8px #000000!important;
+	box-shadow: 0px 8px 8px -8px #000000!important;
+}
+
+.pspt_pricing_table_output td.pspt_features {
+	-webkit-box-shadow: 0 12px 4px -14px black;
+	-moz-box-shadow: 0 12px 4px -14px black;
+	box-shadow: 0 12px 4px -14px black;
+	text-align:center;
+}
+
+.pspt_pricing_table_output .pspt_last_tr td.pspt_features {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-align:center;
+}
+
+.pspt_pricing_table_output .pspt_no_features {
+	border: none;
+}
+
+.pspt_pricing_table_output .pspt_features_name {
+	border-width: 1px;
+	text-align:center;
+}
+
+.pspt_pricing_table_output .pspt_last_tr td {
+	border-bottom-width: 1px !important;
+}
+
+.pspt_pricing_table_output td.pspt_package_name {
+	border-width: 1px 1px 0 1px;
+	text-align:center;
+	min-width: 200px;
+}
+
+.pspt_pricing_table_output td.pspt_price {
+	border-width: 0 1px 0 1px;
+	text-align:center;
+	font-size:12pt;
+	font-weight:bold;
+	padding:5px;
+}
+
+.pspt_pricing_table_output td.pspt_price.pspt_col_highlight {
+	border-width: 0 1px 0 1px;
+	text-align:center;
+	font-size:13pt;
+	font-weight:bold;
+	padding:5px;
+}
+
+.pspt_pricing_table_output td.pspt_subtitle {
+	border-width: 0 1px 1px 1px;
+	text-align:center;
+	font-size:9pt;
+	font-style:italic;
+}
+
+.pspt_pricing_table_output td.pspt_subtitle.pspt_col_highlight {
+	border-width: 0 1px 1px 1px;
+	text-align:center;
+	font-size:10pt;
+	font-style:italic;
+}
+
+.pspt_pricing_table_output td.pspt_features {
+	border-width: 0 1px 0 1px;
+	text-align:center;
+}
+
+
+/* Layout 11 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_11, .pspt_pricing_table_output.pspt_layout_pricing_table_11 td, .pspt_pricing_table_output.pspt_layout_pricing_table_11 th {
+	border-color:#d1d1d1 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_link_shortcode {
+	color:#737373;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_link_shortcode:hover {
+	color:#4d4d4d;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_features_name {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_package_name {
+	background-color:#0d0d0d;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_package_name.pspt_col_highlight {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_price {
+	background-color:#0d0d0d;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_price.pspt_col_highlight {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_subtitle {
+	background-color:#0d0d0d;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#333333;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_features {
+	background-color:#d9d9d9;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 td.pspt_features.pspt_col_highlight {
+	background-color:#f2f2f2;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_col_highlight .pspt_button {
+	background-color:#333333;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_col_highlight .pspt_button:hover {
+	background-color:#4d4d4d;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_button {
+	background-color:#0d0d0d;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_11 .pspt_button:hover {
+	background-color:#262626;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 12 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_12, .pspt_pricing_table_output.pspt_layout_pricing_table_12 td, .pspt_pricing_table_output.pspt_layout_pricing_table_12 th {
+	border-color:#d1d1d1 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_link_shortcode {
+	color:#737373;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_link_shortcode:hover {
+	color:#4d4d4d;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_features_name {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_package_name {
+	background-color:#00264d;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_package_name.pspt_col_highlight {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_price {
+	background-color:#00264d;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_price.pspt_col_highlight {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_subtitle {
+	background-color:#00264d;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#004080;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_features {
+	background-color:#cce6ff;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 td.pspt_features.pspt_col_highlight {
+	background-color:#e6f2ff;
+	color:black;
+}
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_col_highlight .pspt_button {
+	background-color:#004080;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_col_highlight .pspt_button:hover {
+	background-color:#0059b3;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_button {
+	background-color:#00264d;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_12 .pspt_button:hover {
+	background-color:#004080;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 13 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_13, .pspt_pricing_table_output.pspt_layout_pricing_table_13 td, .pspt_pricing_table_output.pspt_layout_pricing_table_13 th {
+	border-color:#d1d1d1 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_link_shortcode {
+	color:#4d4d4d;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_link_shortcode:hover {
+	color:#333333;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_features_name {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_package_name {
+	background-color:#b35900;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_package_name.pspt_col_highlight {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_price {
+	background-color:#b35900;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_price.pspt_col_highlight {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_subtitle {
+	background-color:#b35900;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#e67300;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_features {
+	background-color:#ffd9b3;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 td.pspt_features.pspt_col_highlight {
+	background-color:#fff2e6;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_col_highlight .pspt_button {
+	background-color:#e67300;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_col_highlight .pspt_button:hover {
+	background-color:#ff8c1a;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_button {
+	background-color:#b35900;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_13 .pspt_button:hover {
+	background-color:#e67300;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 24 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_24, .pspt_pricing_table_output.pspt_layout_pricing_table_24 td, .pspt_pricing_table_output.pspt_layout_pricing_table_24 th {
+	border-color:#a2a2a2 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_link_shortcode {
+	color:#8c8c8c;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_link_shortcode:hover {
+	color:#737373;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_features_name {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_package_name {
+	background-color:#ffd966;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_package_name.pspt_col_highlight {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_price {
+	background-color:#ffd966;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_price.pspt_col_highlight {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_subtitle {
+	background-color:#ffd966;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#FFE599;
+	color:#47476b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_features {
+	background-color:#FFF2CC;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 td.pspt_features.pspt_col_highlight {
+	background-color:#FEFEE0;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_col_highlight .pspt_button {
+	background-color:#FFE599;
+	color:#47476b;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_col_highlight .pspt_button:hover {
+	background-color:#ffecb3;
+	color:#47476b;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_button {
+	background-color:#ffd966;
+	color:#47476b;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_24 .pspt_button:hover {
+	background-color:#ffdf80;
+	color:#47476b;
+	box-shadow:none;
+}
+
+/* Layout 25 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_25, .pspt_pricing_table_output.pspt_layout_pricing_table_25 td, .pspt_pricing_table_output.pspt_layout_pricing_table_25 th {
+	border-color:#f0f0f0 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_link_shortcode {
+	color:#8c8c8c;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_link_shortcode:hover {
+	color:#737373;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_features_name {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_package_name {
+	background-color:#acd392;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_package_name.pspt_col_highlight {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_price {
+	background-color:#acd392;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_price.pspt_col_highlight {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_subtitle {
+	background-color:#acd392;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#C5E0B3;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_features {
+	background-color:#E2EFD9;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 td.pspt_features.pspt_col_highlight {
+	background-color:#EDFAE4;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_col_highlight .pspt_button {
+	background-color:#C5E0B3;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_col_highlight .pspt_button:hover {
+	background-color:#d6e9c9;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_button {
+	background-color:#acd392;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_25 .pspt_button:hover {
+	background-color:#c8e1b7;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 26 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_26, .pspt_pricing_table_output.pspt_layout_pricing_table_26 td, .pspt_pricing_table_output.pspt_layout_pricing_table_26 th {
+	border-color:#f0f0f0 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 .pspt_last_tr td.pspt_col_highlight {
+	border-bottom: none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_features_name {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_package_name {
+	background-color:#fb8383;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_package_name.pspt_col_highlight {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_price {
+	background-color:#fb8383;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_price.pspt_col_highlight {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_subtitle {
+	background-color:#fb8383;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#FC9D9D;
+	color:white;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_features {
+	background-color:#FFD4D4;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 td.pspt_features.pspt_col_highlight {
+	background-color:#FFE2E2;
+	color:black;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 .pspt_unavailable {
+	color:#a0a0a0;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 .pspt_col_highlight .pspt_button {
+	background-color:#FC9D9D;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 .pspt_col_highlight .pspt_button:hover {
+	background-color:#fdb5b5;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 .pspt_button {
+	background-color:#fb8383;
+	color:white;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_26 .pspt_button:hover {
+	background-color:#fc9c9c;
+	color:white;
+	box-shadow:none;
+}
+
+/* Layout 37 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_37, .pspt_pricing_table_output.pspt_layout_pricing_table_37 td, .pspt_pricing_table_output.pspt_layout_pricing_table_37 th {
+	border-color:#f0f0f0 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 .pspt_last_tr td.pspt_col_highlight {
+	border-bottom: none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_features_name {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_package_name {
+	background-color:#fdb4fd;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_package_name.pspt_col_highlight {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_price {
+	background-color:#fdb4fd;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_price.pspt_col_highlight {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_subtitle {
+	background-color:#fdb4fd;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#fecdfe;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_features {
+	background-color:#fee6fe;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 .pspt_col_highlight .pspt_button {
+	background-color:#fecdfe;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 .pspt_col_highlight .pspt_button:hover {
+	background-color:#fedefe;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 .pspt_button {
+	background-color:#fdb4fd;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_37 .pspt_button:hover {
+	background-color:#fecdfe;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 38 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_38, .pspt_pricing_table_output.pspt_layout_pricing_table_38 td, .pspt_pricing_table_output.pspt_layout_pricing_table_38 th {
+	border-color:#a2a2a2 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_features_name {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_package_name {
+	background-color:#cae7e7;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_package_name.pspt_col_highlight {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_price {
+	background-color:#cae7e7;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_price.pspt_col_highlight {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_subtitle {
+	background-color:#cae7e7;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#dcefef;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_features {
+	background-color:#edf7f7;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 .pspt_col_highlight .pspt_button {
+	background-color:#dcefef;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 .pspt_col_highlight .pspt_button:hover {
+	background-color:#cbe7e7;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 .pspt_button {
+	background-color:#cae7e7;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_38 .pspt_button:hover {
+	background-color:#b9dfdf;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 39 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_39, .pspt_pricing_table_output.pspt_layout_pricing_table_39 td, .pspt_pricing_table_output.pspt_layout_pricing_table_39 th {
+	border-color:#a2a2a2 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_features_name {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_package_name {
+	background-color:#ecd9c6;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_package_name.pspt_col_highlight {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_price {
+	background-color:#ecd9c6;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_price.pspt_col_highlight {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_subtitle {
+	background-color:#ecd9c6;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#f2e6d9;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_features {
+	background-color:#f9f2ec;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#646464;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 .pspt_col_highlight .pspt_button {
+	background-color:#f2e6d9;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 .pspt_col_highlight .pspt_button:hover {
+	background-color:#ebd9c6;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 .pspt_button {
+	background-color:#ecd9c6;
+	color:#646464;
+	box-shadow:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_39 .pspt_button:hover {
+	background-color:#e6ccb3;
+	color:#646464;
+	box-shadow:none;
+}
+
+/* Layout 42 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_42, .pspt_pricing_table_output.pspt_layout_pricing_table_42 td, .pspt_pricing_table_output.pspt_layout_pricing_table_42 th {
+	border:none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 .pspt_last_tr td.pspt_col_highlight {
+	border-bottom: none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_features_name {
+	background-color:#283B4C;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_package_name {
+	background-color:#283B4C;
+	color:#ffffff;
+	font-size:11pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_package_name.pspt_col_highlight {
+	background-color:#354e64;
+	color:#ffffff;
+	font-size:12pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_price {
+	background-color:#2E9F9D;
+	color:#ffffff;	
+	padding-top:10px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_price span{
+	font-size:18pt;
+	border-radius:65px;
+	border:2px solid #ffffff;
+	height: 130px;
+    width: 130px;
+    line-height: 130px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_price.pspt_col_highlight {
+	background-color:#9C5D7A;
+	color:#ffffff;
+	padding-top:10px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_price.pspt_col_highlight span {
+	font-size:19pt;
+	border-radius:65px;
+	border:2px solid #ffffff;
+	height: 130px;
+    width: 130px;
+    line-height: 130px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_subtitle {
+	background-color:#2E9F9D;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#9C5D7A;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_features {
+	background-color:#f2f2f2;
+	color:#6F7077;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 td.pspt_features.pspt_col_highlight {
+	background-color:#ffffff;
+	color:#6F7077;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 .pspt_col_highlight .pspt_button {
+	background-color:#9C5D7A;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 .pspt_col_highlight .pspt_button:hover {
+	background-color:#a9708a;
+	color:#EDEEEF;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 .pspt_button {
+	background-color:#2E9F9D;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_42 .pspt_button:hover {
+	background-color:#34b2b0;
+	color:#EDEEEF;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:0px;
+}
+
+/* Layout 44 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_44, .pspt_pricing_table_output.pspt_layout_pricing_table_44 td, .pspt_pricing_table_output.pspt_layout_pricing_table_44 th {
+	border-color:#4E6064 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_link_shortcode {
+	color:#8c8c8c;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_link_shortcode:hover {
+	color:#737373;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_features_name {
+	background-color:#444444;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_package_name {
+	background-color:#2D2E2E;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_package_name.pspt_col_highlight {
+	background-color:#212226;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_price {
+	background-color:#484148;
+	color:#ffffff;
+	font-size:16pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_price.pspt_col_highlight {
+	background-color:#DD7D27;
+	color:#ffffff;
+	font-size:17pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_subtitle {
+	background-color:#484148;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#DD7D27;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_features {
+	background-color:#DEF0F4;
+	color:#617377;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 td.pspt_features.pspt_col_highlight {
+	background-color:#DEF0F4;
+	color:#617377;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_col_highlight .pspt_button {
+	background-color:#DD7D27;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_col_highlight .pspt_button:hover {
+	background-color:#e3944f;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_button {
+	background-color:#484148;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_44 .pspt_button:hover {
+	background-color:#5e555e;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+}
+
+/* Layout 45 */
+.pspt_pricing_table_output.pspt_layout_pricing_table_45, .pspt_pricing_table_output.pspt_layout_pricing_table_45 td, .pspt_pricing_table_output.pspt_layout_pricing_table_45 th {
+	border-color:#E6E6E6 !important;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 .pspt_last_tr td.pspt_col_highlight {
+	border-bottom: none;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_features_name {
+	background-color:#53B4BE;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_package_name {
+	background-color:#ffffff;
+	color:#6B6B6B;
+	font-weight:bold;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_package_name.pspt_col_highlight {
+	background-color:#E54722;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_price {
+	background-color:#ffffff;
+	color:#ffffff;	
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_price span{
+	background-color:#E54722;
+	color:#ffffff;	
+	font-size:16pt;
+	border-radius:55px;
+	height: 110px;
+    width: 110px;
+    line-height: 110px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_price.pspt_col_highlight {
+	background-color:#E54722;
+	color:#5B5B5B;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_price.pspt_col_highlight span {
+	background-color:#ffffff;
+	color:#5B5B5B;
+	font-size:17pt;
+	border-radius:55px;
+	height: 110px;
+    width: 110px;
+    line-height: 110px;
+	display:block;
+	margin:auto;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_subtitle {
+	background-color:#ffffff;
+	color:#8a8a8b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_subtitle.pspt_col_highlight {
+	background-color:#E54722;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_features {
+	background-color:#ffffff;
+	color:#8a8a8b;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 td.pspt_features.pspt_col_highlight {
+	background-color:#E54722;
+	color:#ffffff;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 .pspt_unavailable {
+	color:#bababa;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 .pspt_col_highlight .pspt_button {
+	background-color:#ffffff;
+	border:1px solid #E54722;
+	color:#E54722;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 .pspt_col_highlight .pspt_button:hover {
+	background-color:#E54722;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 .pspt_button {
+	background-color:#E54722;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+.pspt_pricing_table_output.pspt_layout_pricing_table_45 .pspt_button:hover {
+	background-color:#ffffff;
+	border:1px solid #E54722;
+	color:#E54722;
+	box-shadow:none;
+	font-size:11pt;
+	border-radius:5px;
+}
+
+
+
+
+.psts_table_output th {
+	padding:10px;
+}
+
+.psts_table_output {
+	font-family:"Trebuchet MS",Verdana,sans-serif;
+}
